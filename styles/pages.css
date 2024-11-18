@@ -1,0 +1,54 @@
+.geist-mono-text {
+    font-family: "Geist Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+#Logo{
+    width: 15%;
+}   
+ body{
+    padding: 50px;
+    margin: 25px;
+    background-color: #E9BED4;
+    color: #2F1964;
+}
+.title{
+    text-decoration: underline;
+    color: #D7278C;
+}
+img{
+    transition: transform 0.5s ease;
+}
+img:hover{
+    transform: scale(1.5);
+}
+@media(max-width:992px){
+    #Logo{
+        width: 20%;
+    }
+    ul{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+@media(max-width:768px){
+    #Logo{
+        width: 25%;
+    }
+    ul{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+        
+    }
+}

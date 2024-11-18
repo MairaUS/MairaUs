@@ -1,0 +1,98 @@
+
+.geist-mono-text {
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+#Ai{
+border: solid 1px;
+max-width: 90%;
+margin: 15px 10px 0 10px;
+justify-content: center;
+}
+#Logo{
+width: 15%;
+}    
+aside{
+    border: solid ;
+    max-width: 100%;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+body{
+padding: 50px;
+margin: 25px;
+background-color: #E9BED4;
+color: #2F1964;
+}
+.title{
+    text-decoration: underline;
+    color: #D7278C;
+}
+.contenedor_padre{
+   display: flex;
+}
+.subtitle{
+    background-color: #D7278C;
+    text-align: center;
+    
+}
+.moreinfo{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+img{
+    transition: transform 0.5s ease;
+}
+img:hover{
+    transform: scale(1.5);
+}
+@media(max-width:992px){
+    #Logo{
+        width: 20%;
+    }
+    ul{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    aside{
+        height: 50%;
+          
+    }
+}
+@media(max-width:768px){
+    #Logo{
+        width: 25%;
+    }
+    ul{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+        
+    }
+
+    aside{
+        height: 50%;
+    }
+    #Ai{
+        margin-right: 6px;
+        margin-left: 8px;
+    }
+    @media(max-width:576px){
+        .contenedor_padre{
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+        }
+    }
+    
+}
