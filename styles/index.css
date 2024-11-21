@@ -8,7 +8,7 @@
 #Ai{
 border: solid 1px;
 max-width: 90%;
-margin: 15px 10px 0 10px;
+margin: 15px 10px 0 15px;
 justify-content: center;
 }
 #Logo{
@@ -16,9 +16,9 @@ width: 15%;
 }    
 aside{
     border: solid ;
-    max-width: 100%;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin: 0% auto;
+    max-width: 125%;
+    height: 1500px;
 }
 body{
 padding: 50px;
@@ -33,6 +33,7 @@ color: #2F1964;
 .contenedor_padre{
    display: flex;
 }
+
 .subtitle{
     background-color: #D7278C;
     text-align: center;
@@ -60,6 +61,7 @@ img:hover{
     }
     p{
         font-size: 15px;
+        
     }
     aside{
         height: 50%;
@@ -85,13 +87,15 @@ img:hover{
         height: 50%;
     }
     #Ai{
-        margin-right: 6px;
-        margin-left: 8px;
+        margin-left: 15px;
     }
     @media(max-width:576px){
         .contenedor_padre{
             flex-direction: column-reverse;
             flex-wrap: wrap;
+        }
+        .contenedorLimite{
+            width: 100%;
         }
     }
     
